@@ -32,7 +32,6 @@ public class WeaponManager : MonoBehaviour {
 
     void NextWeapon()
     {
-        print("NextWeapon");
         if (CurrentWeapon == 3)
             CurrentWeapon = 0;
         else
@@ -76,7 +75,6 @@ public class WeaponManager : MonoBehaviour {
 
     void PrevWeapon()
     {
-        print("PrevWeapon");
         if (CurrentWeapon == 0)
             CurrentWeapon = 3;
         else
@@ -127,7 +125,6 @@ public class WeaponManager : MonoBehaviour {
         {
             if (Input.GetAxisRaw("Mouse ScrollWheel") != 0f)
             {
-                print(Input.GetAxisRaw("Mouse ScrollWheel"));
 
                 if (Input.GetAxis("Mouse ScrollWheel") == 0.1f)
                     NextWeapon();
