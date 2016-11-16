@@ -23,6 +23,7 @@ public class BulletManager : MonoBehaviour {
         }
         else if (other.gameObject.tag != "Player")
         {
+            if (other.gameObject.tag != "Bullet")
             Destroy(gameObject);
         }
 
@@ -30,6 +31,6 @@ public class BulletManager : MonoBehaviour {
 
     void FixedUpdate()
     {
-        rigid.velocity = new Vector2(Speed, 0);
+        rigid.velocity = rigid.transform.right * Speed;
     }
 }
