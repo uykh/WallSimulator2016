@@ -18,13 +18,11 @@ _Griffin
 http://steamcommunity.com/profiles/76561198047318025/
 
 #Sound effects
+All sound effects were downloaded from: http://www.orangefreesounds.com/ and http://soundbible.com/
 Title: Skorpion
 About: Single fire from a skorpion semi-automatic rifle
 Uploaded: 03.23.11 | License: Public Domain | Recorded by Kibblesbob |
 
-Title: Skorpion
-About: Single fire from a skorpion semi-automatic rifle
-Uploaded: 03.23.11 | License: Public Domain | Recorded by Kibblesbob |
 
 Title: 12 Ga Winchester Shotgun 
 About: This is an awsome and exelent quality action pump shot fire of an winchester12 shotgun
